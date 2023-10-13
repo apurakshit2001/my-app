@@ -1,10 +1,13 @@
 
 import './style.css';
 
+
 function App() {
   return (
     <div>
       <header className="header">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+
         <h1 className="title">Pete Seeger</h1>
         <p className="subtitle">American Folk Singer and Activist</p>
       </header>
@@ -107,6 +110,29 @@ function App() {
         </section>
 
       </main>
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-info">
+            <div>
+              <h3>Contact Information</h3>
+              <p className="info">Email: info@example.com</p>
+              <p className="info">Phone: +1 (123) 456-7890</p>
+            </div>
+            <div>
+              <h3>Address</h3>
+              <p className="info">123 Main Street</p>
+              <p className="info">City, State 12345</p>
+            </div>
+          </div>
+          <div className="social-icons">
+            <h3>Follow Us</h3>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook fa-beat"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-beat"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram fa-beat"></i></a>
+          </div>
+        </div>
+        <p className="copyright">&copy; 2023 Your Website Name</p>
+      </footer>
     </div>
   );
 }

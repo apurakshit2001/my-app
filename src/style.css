@@ -10,7 +10,8 @@ li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    /* background-color: #363636; */
+    background: linear-gradient(90deg, rgba(229, 235, 236, 1) 1%, rgba(126, 126, 126, 1) 50%, rgba(0, 0, 0, 0.9640231092436975) 100%);
 }
 
 .container {
@@ -27,7 +28,8 @@ body {
 
 .header {
     text-align: center;
-    background-color: #2c3e50;
+    /* background-color: #2c3e50; */
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     color: #ecf0f1;
     padding: 20px;
     border-bottom: 1px solid rgba(84, 84, 84, 0.345)
@@ -40,8 +42,9 @@ body {
 .subtitle {
     font-size: 18px;
     font-style: italic;
-    border-bottom: 1px solid rgba(84, 84, 84, 0.345);
+    /* border-bottom: 1px solid rgba(84, 84, 84, 0.345); */
     /* border-width: 10%; */
+    color: rgba(189, 193, 194, 0.879);
 }
 
 .profile-image {
@@ -117,7 +120,7 @@ blockquote {
 
 .social-activism-section,
 .musical-influence-section,
-lasting-legacy-section {
+.lasting-legacy-section {
     margin-top: 20px;
 }
 
@@ -129,4 +132,46 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.footer-info .info{
+    color: white;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    text-align: left;
+}
+
+.footer-info h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.social-icons {
+    text-align: right;
+}
+
+.social-icons h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.copyright {
+    margin-top: 20px;
 }
