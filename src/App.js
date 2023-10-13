@@ -1,6 +1,10 @@
 
 import './style.css';
 
+import f1 from './images/PeteSeeger.jpg'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
   return (
@@ -13,7 +17,8 @@ function App() {
       </header>
       <main className="container">
         <section className="profile-section">
-          <img className="profile-image" src=".react/my-app/images/PeteSeeger.jpg" alt="Pete Seeger" />
+          <img src={f1} alt="Pete Seeger"/>
+
 
           <h2>About Pete Seeger</h2>
           <p>
@@ -124,11 +129,11 @@ function App() {
               <p className="info">City, State 12345</p>
             </div>
           </div>
-          <div className="social-icons">
+          <div className="social-icons"> {/* kaj korena */}
             <h3>Follow Us</h3>
-            <a href="#" target="_blank"><i class="fa-brands fa-facebook fa-beat"></i></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-beat"></i></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href="#" target="_blank"><FacebookIcon/></a>
+            <a href="#" target="_blank"><InstagramIcon/></a>
+            <a href="#" target="_blank"><TwitterIcon/></a>
           </div>
         </div>
         <p className="copyright">&copy; 2023 Your Website Name</p>
